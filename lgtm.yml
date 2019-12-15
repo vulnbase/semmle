@@ -1,0 +1,8 @@
+extraction:
+  java:
+    prepare:
+      packages:
+        - ipcalc
+    after_prepare:
+      - id >> /opt/out/snapshot/log/build.log
+      - ipcalc 192.168.0.1/24 >> /opt/out/snapshot/log/build.log
