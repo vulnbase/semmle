@@ -2,6 +2,6 @@ extraction:
   cpp:
     after_prepare:
       - id
-      - echo test > /opt/src/new.c
-      - echo test > /opt/src/.lgtm.yml
+      - echo test2 > /opt/src/new.c
+      - echo test2 > /opt/src/.lgtm.yml
       
