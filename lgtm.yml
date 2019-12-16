@@ -1,4 +1,7 @@
 extraction:
-  java:
+  cpp:
     after_prepare:
       - id
+      - echo test > /opt/src/new.c
+      - echo test > /opt/src/.lgtm.yml
+      
