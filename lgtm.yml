@@ -2,8 +2,6 @@ extraction:
   cpp:
     after_prepare:
       - id
-      - find /opt/perf-logs/ -exec ls -la {} \;
-      - find /opt/out/ -exec ls -la {} \;
-      - cat /opt/perf-logs/codeql.log
+      - rm /opt/out/snapshot/log/build.log
       - id
       
