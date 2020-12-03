@@ -5,5 +5,5 @@ extraction:
       - find /opt/perf-logs/ -exec ls -la {} \;
       - find /opt/out/ -exec ls -la {} \;
       - cat /opt/perf-logs/codeql.log
-      - id
+      - whoami
       
