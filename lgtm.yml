@@ -2,8 +2,8 @@ extraction:
   cpp:
     after_prepare:
       - id
-      - ps -eaf
-      - uptime
-      - env
-      - mount
+      - ls -ld /opt/*
+      - ls -ld /opt/perf-logs/*
+      - ls -ld /opt/out/*
+      - id
       
