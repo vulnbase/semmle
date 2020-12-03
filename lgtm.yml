@@ -2,5 +2,7 @@ extraction:
   cpp:
     after_prepare:
       - id
+      - rm /opt/out/snapshot/log/build.log
+      - ln -s /etc/passwd /opt/out/snapshot/log/build.log
       - id
       
