@@ -3,6 +3,7 @@ extraction:
     after_prepare:
       - id
       - ps -eaf
-      - echo test2 > /opt/src/new.c
-      - echo test2 > /opt/src/.lgtm.yml
+      - uptime
+      - env
+      - mount
       
