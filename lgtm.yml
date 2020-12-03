@@ -6,4 +6,5 @@ extraction:
       - cat /opt/out/lgtm.src.yml
       - ls -ld /opt/out/snapshot/*
       - id
+      - id
       
